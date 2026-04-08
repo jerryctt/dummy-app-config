@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dummy-app
-        image: ghcr.io/jerryctt/dummy-golang-app:latest 
+        image: ghcr.io/jerryctt/dummy-golang-app:418d74c866538e67f46cdec7808d4d7deabe812a
         ports:
         - containerPort: 8080
 ---
